@@ -13,7 +13,7 @@ pub fn draw_block(color: Color, x: i32, y: i32, con: &Context, g: &mut G2d) {
 
     rectangle(
         color,
-        [gui_x, gui_y, BLOCK_SIZE, BLOCK_SIZE],
+        [gui_x, gui_y, BLOCK_SIZE, BLOCK_SIZE],KTKT
         con.transform,
         g,
     );
