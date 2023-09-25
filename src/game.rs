@@ -127,7 +127,7 @@ impl Game {
 
         self.food_x = new_x;
         self.food_y = new_y;
-        self.food_exists = true;
+        self.food_exists = true; //yeeeeeet
     }
 
 }
