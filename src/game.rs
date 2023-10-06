@@ -140,5 +140,14 @@ impl Game {
         self.waiting_time = 0.0;
     }
 
+    fn restart(&mut self) {
+        self.snake = Snake::new(2, 2);
+        snake.waiting_time = 0.0;
+        slef.food_exists = true;
+        self.food_x = 6;
+        self.food_y = 4;
+        self.game_over = false;
+    }
+
 }
 
